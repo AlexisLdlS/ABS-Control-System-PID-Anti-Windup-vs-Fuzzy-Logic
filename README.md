@@ -1,2 +1,5 @@
 # Fuzzy-Logic-ABS-and-Yaw-Control-System
-Designed and validated an ABS system using fuzzy logic in Simulink. Estimated wheel slip using IMU and wheel speed sensors; implemented a Mamdani-type fuzzy controller for brake pressure modulation. Developed a secondary control block to reduce yaw in split-μ scenarios by adjusting lateral braking force. Achieved a 30% reduction in braking time and 35% in stopping distance under uneven road conditions. Integrated Riemann-based estimations, multiple control iterations, and real-time sensor processing for robust response.
+This repository presents two versions of an Anti-lock Braking System (ABS) controller:
+  -PID-based ABS Controller: using anti-windup digital PID for slip regulation.
+  -Fuzzy Logic ABS Controller: using Mamdani fuzzy inference and a yaw correction module.
+Both were implemented and validated in MATLAB/Simulink under various driving scenarios.
