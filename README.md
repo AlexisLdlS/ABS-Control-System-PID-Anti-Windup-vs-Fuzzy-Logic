@@ -59,7 +59,4 @@ Both systems were tested under realistic driving conditions, including emergency
 
 ## 👨‍💻 Authors
 
-- Alexis Lechuga de los Santos  
-
-Undergraduate project for *Mechatronic Automotive Systems*  
-ITESM – 2021  
+- Alexis Lechuga de los Santos
