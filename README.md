@@ -1,4 +1,4 @@
-# ABS-Control-System-PID-vs-Fuzzy-Logic
+# ABS-Control-System-PID-Anti-Windup-vs-Fuzzy-Logic
 This repository presents two versions of an Anti-lock Braking System (ABS) controller:
 
   -PID-based ABS Controller: using anti-windup digital PID for slip regulation.
@@ -57,6 +57,9 @@ Both systems were tested under realistic driving conditions, including emergency
 
 ---
 
-## 👨‍💻 Authors
-
-- Alexis Lechuga de los Santos
+## 🧠 My Technical Contribution
+I was directly responsible for:
+- Designing and coding the ABS control architecture and strategies (PID and fuzzy logic)
+- Coding the slip estimation, braking logic, and yaw correction mechanisms
+- Implementing MATLAB/Simulink models
+- Supported the Tuning of control parameters and validating performance through simulations
