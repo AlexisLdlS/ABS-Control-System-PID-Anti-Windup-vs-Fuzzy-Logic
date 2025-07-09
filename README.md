@@ -5,9 +5,9 @@ This repository presents two versions of an Anti-lock Braking System (ABS) contr
   
   -Fuzzy Logic ABS Controller: using Mamdani fuzzy inference and a yaw correction module.
   
-Both systems were tested under realistic driving conditions, including emergency braking at high speeds and surface changes (e.g. split-μ scenarios). The controllers regulate brake pressure based on real-time sensor signals (wheel speed, master cylinder pressure, IMU). 
-
 Each controller was implemented within a code-based Simulink block, mimicking the application-layer logic that would typically run on an ECU.
+
+Both systems were tested under realistic driving conditions, including emergency braking at high speeds and surface changes (e.g. split-μ scenarios). The controllers regulate brake pressure based on real-time sensor signals (wheel speed, master cylinder pressure, IMU). 
 
 - System Model:
 
