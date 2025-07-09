@@ -78,15 +78,22 @@ For running and simulating the model:
 - Following ADD-On needs to be instaled in Simulink: Vehicle Dynamics Blockset by MathWorks
 
 Steps for executing the simulation:
+
 1.- Open the ABS_Project Folder
+
 2.- Run one of the INITIAL CONFIG SCRIPTs (Init_*.m)
+
   Script will define:
+
   - Sampling period of the inputs to simulation and the controller.
   - Multiple model parameters.
   - Surface definition. Coefficients of fricition for the wheels.
   - The maneuver to be carried out by a ficticious driver, based on throttle, brake and steering inputs.
+
 3.- Open the Main System Simulink Model File (Main_A.slx)
+
 4.- Enable/Disable 3D Simulation Movie: go to Visualization block and double click the "3D Engine" block, selecting the corresponding option and return to Main Model Block.
+
 5.- Run the simulation by pressing the Run Button (F5)
 
 ---
