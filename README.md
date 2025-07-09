@@ -63,3 +63,8 @@ I was directly responsible for:
 - Coding the slip estimation, braking logic, and yaw correction mechanisms
 - Implementing MATLAB/Simulink models
 - Supported the Tuning of control parameters and validating performance through simulations
+
+---
+
+## LICENSE
+This project is for demonstration and educational purposes.  All rights reserved unless otherwise stated. Not to be used or redistributed without author credit. 
