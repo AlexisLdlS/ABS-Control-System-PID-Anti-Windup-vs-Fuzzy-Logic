@@ -1,0 +1,39 @@
+[System]
+Name='Toolbox_fuzzy'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=5
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Error_de_deslizamiento'
+Range=[-0.8 0.2]
+NumMFs=5
+MF1='Eng':'trimf',[-1000 -0.7 -0.4]
+MF2='Ec':'trimf',[-0.1 0 0.1]
+MF3='Epp':'trimf',[0 0.1 100000]
+MF4='Enm':'trimf',[-0.65 -0.4 -0.3]
+MF5='Enp':'trimf',[-0.35 -0.2 0]
+
+[Output1]
+Name='Relación_de_presión_con_PMC'
+Range=[0 1]
+NumMFs=5
+MF1='nPMC':'trimf',[-1000 0.01 0.02]
+MF2='pPMC':'trimf',[0 0.15 0.25]
+MF3='mPMC':'trimf',[0.25 0.4 0.65]
+MF4='cPMC':'trimf',[0.65 0.75 0.95]
+MF5='PMC':'trimf',[0.9 0.95 1000]
+
+[Rules]
+1, 1 (1) : 1
+4, 2 (1) : 1
+5, 3 (1) : 1
+2, 4 (1) : 1
+3, 5 (1) : 1
