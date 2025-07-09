@@ -7,6 +7,14 @@ This repository presents two versions of an Anti-lock Braking System (ABS) contr
   
 Both systems were tested under realistic driving conditions, including emergency braking at high speeds and surface changes (e.g. split-μ scenarios). The controllers regulate brake pressure based on real-time sensor signals (wheel speed, master cylinder pressure, IMU).
 
+![image](https://github.com/user-attachments/assets/df816df3-78cb-46ed-9813-8d38f760f9de)
+
+System:
+![image](https://github.com/user-attachments/assets/67ecf3dc-0a68-41a1-9e32-cb173b28493e)
+
+Brake Controller Block:
+
+![image](https://github.com/user-attachments/assets/cc6d4fab-8c94-4239-a2f3-d6134da129dd)
 
 
 ## 🚗 Control Strategy Overview
