@@ -2,8 +2,12 @@
 This repository presents two versions of an Anti-lock Braking System (ABS) controller:
 
   -PID-based ABS Controller: using anti-windup digital PID for slip regulation.
-  
+
+<img width="1044" height="531" alt="PID anti windup Diagram" src="https://github.com/user-attachments/assets/58037775-e892-4b31-b714-9a57ad5619bc" />
+
   -Fuzzy Logic ABS Controller: using Mamdani fuzzy inference and a yaw correction module.
+
+<img width="650" height="364" alt="Fuzzy Controller Diagram" src="https://github.com/user-attachments/assets/c8e10027-ee7d-4af7-9036-3e6c4f62865f" />
   
 Each controller was implemented within a code-based Simulink block, mimicking the application-layer logic that would typically run on an ECU.
 
@@ -19,8 +23,7 @@ Both systems were tested under realistic driving conditions, including emergency
 
 - 3D Simulation Movie Engine Available
 
-![image](https://github.com/user-attachments/assets/480228c2-9f49-49c8-b8fc-aeedfe041c40)
-
+<img width="1131" height="887" alt="3d Simulation Move" src="https://github.com/user-attachments/assets/46d4b7fb-72b4-418a-9ef1-e04e87c65403" />
 
 
 ## 🚗 Control Strategy Overview
@@ -41,10 +44,15 @@ Both systems were tested under realistic driving conditions, including emergency
 ## 🔬 Key Technical Concepts
 
 - Slip estimation from wheel angular speed and IMU (via Riemann integration)
+- Selection of the slip target based on the max. adhesion point in the friction-slip curve.
 - PID controller tuning using test sweeps of \( K_p, K_i, K_d \)
 - Fuzzy membership functions (triangular) and Mamdani inference
 - Custom yaw correction by asymmetric brake force distribution
 - Anti-windup strategy to prevent actuator saturation
+
+<img width="707" height="479" alt="Wheel Friction Slip curve" src="https://github.com/user-attachments/assets/9e395f89-23c5-4a39-ae54-e7a36fca266a" />
+
+<img width="475" height="458" alt="Wheel and brake Slip Diagram Formula" src="https://github.com/user-attachments/assets/25643caf-e1b0-4870-94d4-8dbeaf9e4e47" />
 
 ---
 
