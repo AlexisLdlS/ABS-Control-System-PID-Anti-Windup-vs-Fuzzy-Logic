@@ -83,7 +83,6 @@ For
 I was directly responsible for:
 - Designing and coding the ABS control architecture and strategies (PID and fuzzy logic)
 - Coding the slip estimation, braking logic, and yaw correction mechanisms
-- Implementing MATLAB/Simulink models
 - Supported the Tuning of control parameters and validating performance through simulations
 
 ---
